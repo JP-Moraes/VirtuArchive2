@@ -1,0 +1,35 @@
+/* Container geral da página */
+.container {
+  padding: 2rem;
+  text-align: center;
+  background-color: #f9f9f9;
+}
+
+/* Área de destaque (hero) */
+.hero h1 {
+  color: #2c3e50;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  color: #7f8c8d;
+}
+
+/* Seção dos jogos */
+.gamesSection {
+  margin-top: 2rem;
+}
+
+.gamesSection h2 {
+  color: #2c3e50;
+  margin-bottom: 1.5rem;
+}
+
+/* Grid dos cards */
+.gamesGrid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 1rem;
+}
